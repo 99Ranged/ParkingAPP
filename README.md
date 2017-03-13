@@ -5,7 +5,7 @@ Introduction:
 A problem was given for a parking company. The park users were in need of an app that would let them automatically make a reservation for a parking spot or a shuttling service. 
 All the network requests are made through a RESTful service. The database necessary is not provided.
 
-<b>Implemented features:
+<b>Implemented features:</b>
 
 -Login / Register new user 
 
@@ -25,7 +25,7 @@ All the network requests are made through a RESTful service. The database necess
 
 
 
-<b>TO:DO 
+<b>TO:DO </b>
 
 Optimize database connections;
 
