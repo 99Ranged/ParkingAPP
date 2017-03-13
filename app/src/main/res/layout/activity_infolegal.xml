@@ -1,0 +1,53 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    tools:context="com.example.keke.parkingsys.homev3"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+        <!-- This FrameLayout insets its children based on system windows using
+             android:fitsSystemWindows. -->
+        <TextView
+            android:text="Informação legal - Parking inc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at turpis non eros dictum auctor eget sit amet lacus. Cras consectetur arcu sed pulvinar ullamcorper. Morbi ac iaculis ligula. Pellentesque id faucibus mauris. Sed in varius nisl, in iaculis ipsum. Nullam in ipsum nec quam pretium vestibulum. Donec quis lorem ipsum. Etiam in odio sed nulla venenatis placerat. Mauris aliquet neque at pretium varius. Nullam gravida risus eu justo commodo finibus auctor non justo.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce feugiat dui odio, id facilisis est ultrices eget. In hac habitasse platea dictumst. Aliquam efficitur velit eu enim feugiat hendrerit. Nulla iaculis justo quis tortor bibendum consectetur. Cras sed nulla at turpis auctor elementum. Nam vel imperdiet mi, sit amet elementum arcu. Nam sit amet blandit erat. Donec diam dui, eleifend et euismod varius, malesuada sagittis arcu. Integer sagittis enim id elementum malesuada. Quisque vestibulum lorem leo. Fusce non aliquet turpis, a finibus est. Nam enim orci, vehicula vel posuere non, blandit sed nisl."
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30px"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/navList"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#3d3d3d"
+        />
+
+
+</android.support.v4.widget.DrawerLayout>
