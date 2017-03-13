@@ -36,4 +36,4 @@ Fix automatic price calculations;
 Improve UI
 
 
-A list of screenshots is avalaible in the folder /APPimages
+------ A list of screenshots is avalaible in the folder /APPimages -------
